@@ -11,17 +11,17 @@ const focusAreas = [
   {
     title: 'Spatial Analytics',
     description:
-      'We design novel spatial models that link environmental systems, human mobility, and infrastructure dynamics across scales.',
+      'We develop advanced spatial statistical and GeoAI methods, together with open-source software, to advance spatial process understanding',
     icon: Microscope
   },
   {
     title: 'Health',
     description:
-      'Our teams develop methods that respect spatial dependence and heterogeneity, expanding the frontier of local inference.',
+      'Understand health with specialty area related to aging and environmentally stressed outcomes',
     icon: Activity
   },
   {
-    title: 'Voting',
+    title: 'Environment',
     description:
       'MGWR innovation remains a signature strength, blending theoretical advances with real-world tooling for analysts everywhere.',
     icon: Radar
@@ -33,11 +33,17 @@ const focusAreas = [
     icon: Radar
   },
   {
+    title: 'Voting',
+    description:
+      'MGWR innovation remains a signature strength, blending theoretical advances with real-world tooling for analysts everywhere.',
+    icon: Radar
+  },
+  {
     title: 'Crime',
     description:
       'MGWR innovation remains a signature strength, blending theoretical advances with real-world tooling for analysts everywhere.',
     icon: Radar
-  }
+  },
 ];
 
 // const spotlights = [
@@ -68,7 +74,7 @@ export default function Research() {
         <header className="text-center">
           <span className="chip-gold">Research</span>
           <h1 className="mt-6 text-4xl font-semibold text-black text-glow md:text-5xl">
-            Advancing spatial knowledge and practice
+            Research Areas and Expertise
           </h1>
           <p className="mx-auto mt-5 max-w-3xl text-sm text-ink-600 md:text-base">
             SDSC research pairs rigorous methodology with responsive design. Our
